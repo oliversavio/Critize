@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app-config>
+	<action-mapping>
+		<action>
+			<action-class>com.critize.helper.AddProduct</action-class>
+			<action-name>AddProduct</action-name>
+		</action>
+		<action>
+			<action-class>com.critize.helper.ReadFile</action-class>
+			<action-name>ReadFile</action-name>
+		</action>
+		<action>
+			<action-class>com.critize.helper.EditProduct</action-class>
+			<action-name>EditProduct</action-name>
+		</action>
+		<action>
+			<action-class>com.critize.helper.UpdateProduct</action-class>
+			<action-name>UpdateProduct</action-name>
+		</action>
+	</action-mapping>
+	<view-mapping>
+		<view>
+			<view-name>AddNew</view-name>
+			<view-file>jsp/addNew.jsp</view-file>
+		</view>
+		<view>
+			<view-name>Dashboard</view-name>
+			<view-file>jsp/dashboard.jsp</view-file>
+		</view>
+		<view>
+			<view-name>CurrentStock</view-name>
+			<view-file>jsp/displayStock.jsp</view-file>
+		</view>
+		<view>
+			<view-name>EditProduct</view-name>
+			<view-file>jsp/editProd.jsp</view-file>
+		</view>
+	</view-mapping>
+</app-config>
